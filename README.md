@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [](https://www.frontendmentor.io/solutions/frontend-mentor-order-summary-card-solution-with-html-and-css-Cwg2YY1rx)
+- Live Site URL: [Add live site URL here](https://prj-01-order-summary-component.vercel.app/)
 
 ## My process
 
