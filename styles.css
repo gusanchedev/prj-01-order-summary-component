@@ -24,6 +24,7 @@ body {
   background-color: var(--Very-pale-blue);
   border-radius: 20px;
   overflow: hidden;
+  box-shadow: 3px 13px 16px 0px hsl(236deg 78% 89%);
 }
 .hero-image {
   max-width: 100%;
@@ -114,4 +115,14 @@ h2 {
 }
 .cancel-payment:hover {
   color: var(--Dark-blue);
+}
+
+@media (min-width:640px) {
+  body {
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+  }
+  .card {
+    margin-top: 150px;
+  }
 }
