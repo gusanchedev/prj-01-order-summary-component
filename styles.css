@@ -1,3 +1,97 @@
 :root {
-  
+  --Pale-blue: hsl(225, 100%, 94%);
+  --Bright-blue: hsl(245, 75%, 52%);
+  --Very-pale-blue: hsl(225, 100%, 98%);
+  --Desaturated-blue: hsl(224, 23%, 55%);
+  --Dark-blue: hsl(223, 47%, 23%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  background-color: var(--Pale-blue);
+}
+.card {
+  margin: 50px 25px 50px 25px;
+  max-width: 360px;
+  background-color: var(--Very-pale-blue);
+  border-radius: 20px;
+  overflow: hidden;
+}
+.hero-image {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+h1 {
+  font-size: 1.4rem;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+h2 {
+  font-size: 15px;
+  color:hsl(224, 23%, 55%);
+  opacity: 0.8;
+  font-weight: 700;
+  text-align: center;
+  padding: 0 2rem 0 2rem;
+  line-height: 1.5rem;
+}
+.plan-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0.5rem;
+  border-radius: 10px;
+  background-color: hsl(225, 60%, 96%);
+  margin: 1.5rem 1.5rem;
+}
+.plan-title {
+  color: var(--Dark-blue);
+  font-weight: 900;
+  font-size: 0.9rem;
+}
+.plan-price {
+  color: var(--Desaturated-blue);
+  font-weight: 700;
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+.change-option {
+  color: var(--Bright-blue);
+  text-decoration: underline;
+  font-weight: 800;
+  font-size: 0.8rem;
+}
+.payment {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.proceed-payment {
+  font-size: 0.9rem;
+  font-weight: 900;
+  color: var(--Very-pale-blue);
+  background-color: hsl(245, 75%, 52%);
+  border: none;
+  border-radius: 10px;
+  padding: 0.9rem 4rem;
+  text-align: center;
+  box-shadow: 0px 15px 14px 2px #d0d0ff
+}
+.cancel-payment {
+  font-size: 0.9rem;
+  font-weight: 900;
+  color: var(--Desaturated-blue);
+  border: none;
+  margin: 1.2rem;
+  background-color: inherit;
+  margin-bottom: 2rem;
 }
